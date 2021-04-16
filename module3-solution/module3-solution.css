@@ -35,15 +35,20 @@ h2 {
 }
 
 #nav-list {
-  margin-top: 10px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #4b778d;
 }
+
 #nav-list a {
   color: #FFFFFF;
-  text-align: center;
+  background-color: #4b778d;
 }
+
 #nav-list a:hover {
   background: #c67ace;
 }
+
 #nav-list a span {
   font-size: 1.8em;
 }
