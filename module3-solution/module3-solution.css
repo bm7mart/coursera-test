@@ -1,0 +1,89 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #b5bfa1;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+/** HEADER **/
+#header-nav {
+  background-color: #6e9887;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 25px;
+  padding-bottom: 50px;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Ranchers', cursive;
+  color: #FFFFFF;
+  font-size: 2.5em;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: #FFFFFF;
+  text-align: center;
+}
+#nav-list a:hover {
+  background: #c67ace;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+/* END HEADER */
+* {
+  box-sizing: border-box;
+}
+
+
+div > section {
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  text-align: center;
+  color: #000000;
+  font-weight: bold; 
+  padding-top: 8px; 
+}
+
+
+.mylayout {
+  border: 1px solid black;
+  background-color: #f7e2de;
+  padding-top: 2em;
+  position: relative;
+  top: 0;
+  right: 0;
+  padding-bottom: 0.2em;
+  border-radius: 10px;
+  color: black;
+  text-align: justify;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
